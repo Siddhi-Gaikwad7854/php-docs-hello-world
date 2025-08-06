@@ -12,3 +12,13 @@ Submit<input type="Submit" name="t3">
 </form>
 <body>
 </html>
+
+  <?php>
+    if (isset($_GET['submit']))
+   {
+    $num1=$_GET['t1'];
+    $num2=$_GET['t2'];
+  $ans=$num1+$num2;
+  echo('Addition is :'.$ans)
+   }
+  ?>
